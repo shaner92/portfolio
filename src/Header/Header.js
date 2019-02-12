@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import '../bootstrap/css/bootstrap.min.css';
-import mainImg from './main.jpg'
-import './Header.scss'
+import mainImg from './main.jpg';
+import './Header.scss';
 
 export default class Header extends Component{
+    constructor(props){
+        super(props);
+    }
     render(){
         return(
     <div>
         
-        <div class="container-fluid p-0">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <img src={mainImg} class="img-fluid"></img>
@@ -26,7 +29,7 @@ export default class Header extends Component{
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#" onClick = {window.scrollTo(0, 0)}>Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">About</a>
@@ -38,7 +41,7 @@ export default class Header extends Component{
                                 <a class="nav-link" href="#">Education</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Work Experience</a>
+                                <a class="nav-link" href="#"> Work Experience</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Projects</a>
@@ -52,7 +55,7 @@ export default class Header extends Component{
                 </div> 
             </div>
         </div>
-        
+     
     </div>)
     }
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../bootstrap/css/bootstrap.min.css';
 import './Skills.scss'
+import '../fontawesome-free-5.7.1-web/css/all.min.css'
 
 export default class Skills extends Component{
     render(){
@@ -8,22 +9,45 @@ export default class Skills extends Component{
     <div>
         
         {/*Laptop image*/}
-        <div class="container-fluid p-0">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 text-center pt-5">
                     <h1>Skills</h1>
-                    <p>
-                        I am an individual who is fascinated with learning. 
-                        I am passionately interested in Education, People, and Tech.
-                        My passion for education and learning makes me an active listener, 
-                        a curious individual, and inevitably a lifelong learner. 
-                        I see myself as a self-starter and a driven learner, 
-                        also enjoying a stimulating conversation, a strongly supported argument. 
-                        I enjoy the challenge of problem solving, analytical thinking , 
-                        being an innovative learner, and a versatile athlete. 
-                        My interests are also hiking, good music, 
-                        football and most importantly revamping my baking and cooking skills.</p>
-                </div> 
+                </div>
+            </div>
+            <div class="row p-5">
+            <div class="col-md-3 center-block text-center">
+                <i className ="fab fa-html5 fa-9x"></i>
+                <p>place holder text</p>
+            </div>
+            <div class="col-md-3 center-block text-center">
+                <i className ="fab fa-css3-alt fa-9x"></i>
+                <p>place holder text</p>
+            </div>
+            <div class="col-md-3 center-block text-center">
+                <i className ="fab fa-react fa-9x"></i>
+                <p>place holder text</p>
+            </div>
+            <div class="col-md-3 center-block text-center">
+                <i className ="fab fa-js fa-9x"></i>
+                <p>place holder text</p>
+            </div>
+            </div>
+            <div class="row p-5">
+            <div class="col-md-3 center-block text-center">
+                <i className ="fab fa-node fa-9x"></i>
+                <p>place holder text</p>
+            </div>
+            <div class="col-md-3 center-block text-center">
+                <i className ="fas fa-database fa-9x"></i>
+                <p>place holder text</p>
+            </div>
+            <div class="col-md-3 center-block text-center">
+                <i className ="fab fa-react fa-9x"></i>
+            </div>
+            <div class="col-md-3 center-block text-center">
+                <i className ="fab fa-github fa-9x"></i>
+            </div>
             </div>
         </div>
 

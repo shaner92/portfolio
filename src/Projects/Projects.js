@@ -8,21 +8,21 @@ export default class Projects extends Component{
     <div>
         
         {/*Laptop image*/}
-        <div class="container-fluid p-0">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 text-center pt-5">
-                    <h1>Experience</h1>
-                    <p>
-                        I am an individual who is fascinated with learning. 
-                        I am passionately interested in Education, People, and Tech.
-                        My passion for education and learning makes me an active listener, 
-                        a curious individual, and inevitably a lifelong learner. 
-                        I see myself as a self-starter and a driven learner, 
-                        also enjoying a stimulating conversation, a strongly supported argument. 
-                        I enjoy the challenge of problem solving, analytical thinking , 
-                        being an innovative learner, and a versatile athlete. 
-                        My interests are also hiking, good music, 
-                        football and most importantly revamping my baking and cooking skills.</p>
+                    <h1>Projects</h1>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center pt-3">
+                    <h1>Hopkins Logis</h1>
+                </div> 
+                <div class="col-md-4 text-center pt-3">
+                    <h1>Data Visualization</h1>
+                </div> 
+                <div class="col-md-4 text-center pt-3">
+                    <h1>Ecommerce</h1>
                 </div> 
             </div>
         </div>

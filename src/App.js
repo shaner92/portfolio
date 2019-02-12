@@ -5,17 +5,19 @@ import Skills from './Skills/Skills.js'
 import Education from './Education/Education.js'
 import Experience from './Experience/Experience.js'
 import Projects from './Projects/Projects.js'
+import Footer from './Footer/Footer.js'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+       <Header />
         <About />
         <Skills />
         <Education />
         <Experience />
         <Projects />
+        <Footer />
       </div>
     );
   }
