@@ -13,12 +13,18 @@ export default class About extends Component{
                     <h1>About</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
+            <div class="row p-5">
+                <div class="col-md-4 text-center border-right">
+                    <i className ="fas fa-beer fa-9x"></i>
+                    <p>I work with HTML5, CSS3 and pure JavaScript. I love coding as such and I am currently learning cool JS frameworks and libraries.</p>
+                </div>
+                <div class="col-md-4 text-center border-right">
+                    <i className ="fas fa-gamepad fa-9x"></i>
+                    <p>I work with HTML5, CSS3 and pure JavaScript. I love coding as such and I am currently learning cool JS frameworks and libraries.</p>
                 </div>
                 <div class="col-md-4 text-center">
-                </div>
-                <div class="col-md-4">
+                    <i className ="fas fa-football-ball fa-9x"></i>
+                    <p>I work with HTML5, CSS3 and pure JavaScript. I love coding as such and I am currently learning cool JS frameworks and libraries.</p>
                 </div>
             </div>
          
