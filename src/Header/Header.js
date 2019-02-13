@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../bootstrap/css/bootstrap.min.css';
 import mainImg from './main.jpg';
 import './Header.scss';
+import '../fontawesome-free-5.7.1-web/css/all.min.css'
 
 export default class Header extends Component{
     constructor(props){
@@ -11,18 +12,32 @@ export default class Header extends Component{
         return(
     <div>
         
-        <div class="container-fluid">
+        <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-md-12">
-                    <img src={mainImg} class="img-fluid"></img>
-                    
-                    <div class="carousel-caption">
+                    <div class="thumbnail text-primary">
+                        <img src={mainImg} class="img-fluid"></img>
+                        <div class="caption post-content">
                         <h1>Shane Regnier</h1>
-                        <br/>
                         <h2>Web Developer, Application Specialist, Home Brewer</h2>
+                    
+            <div class="row">
+                            <div class="col-md-4 col-xs-4">
+                                <i className ="fab fa-github fa-3x"></i>
+                            </div>
+                            <div class="col-md-4 col-xs-4">
+                            <i class="fab fa-linkedin fa-3x"></i>
+                            </div>
+
+                        </div>
                     </div>
-               </div>   
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                </div>
+                   
+               </div>  
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg fixed-top">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>

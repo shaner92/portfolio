@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../bootstrap/css/bootstrap.min.css';
 import './Experience.scss'
-import ReactDOM from 'react-dom';
 
 
 export default class Experience extends Component{

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../bootstrap/css/bootstrap.min.css';
 import './Education.scss'
 import eduImg from './Uwin.png';
+
 export default class Education extends Component{
     render(){
         return(
