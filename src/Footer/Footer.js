@@ -15,7 +15,7 @@ export default class Footer extends Component{
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 mx-auto text-center">
+            <div class="col-md-6 mx-auto text-center border-right">
                
                 <ul class="list-unstyled">
                     <li>
@@ -33,20 +33,15 @@ export default class Footer extends Component{
                 </ul>
             </div>
             <div class="col-md-6 mx-auto text-center">
-                <ul class="list-unstyled">
-                    <li>
-                    <a href="#!">Very long link 1</a>
-                    </li>
-                    <li>
-                    <a href="#!">Very long link 2</a>
-                    </li>
-                    <li>
-                    <a href="#!">Very long link 3</a>
-                    </li>
-                    <li>
-                    <a href="#!">Very long link 4</a>
-                    </li>
-                </ul>
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"/>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                    </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </div>
     </div>
