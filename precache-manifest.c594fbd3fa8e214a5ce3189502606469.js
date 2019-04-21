@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-solid-900.9c73abbd.woff"
   },
   {
-    "revision": "bdca2712537be02bdb9a",
-    "url": "/portfolio/static/css/main.2af37ec9.chunk.css"
+    "revision": "d445acd8e873e934846b",
+    "url": "/portfolio/static/css/main.5148830c.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "cfc912eb96f597c38bdc",
-    "url": "/portfolio/static/js/2.1b13a8f8.chunk.js"
+    "revision": "6f3ed8d434257618d358",
+    "url": "/portfolio/static/js/2.d0c00a89.chunk.js"
   },
   {
     "revision": "6a9d786e67d54419d8629081fbb555d6",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-brands-400.c7d7a2a1.woff"
   },
   {
-    "revision": "bdca2712537be02bdb9a",
-    "url": "/portfolio/static/js/main.9cfff405.chunk.js"
+    "revision": "d445acd8e873e934846b",
+    "url": "/portfolio/static/js/main.13ba70ae.chunk.js"
   },
   {
     "revision": "3186ebd2918491445ea391a4f74e8dd7",
@@ -76,15 +76,15 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-solid-900.c8ea4c79.svg"
   },
   {
-    "revision": "c03a236cb1362b4b9c4a24a78c7c4023",
-    "url": "/portfolio/static/media/main.c03a236c.jpg"
-  },
-  {
     "revision": "79a581b872425e5929fde0b988018cd6",
     "url": "/portfolio/static/media/Uwin.79a581b8.png"
   },
   {
-    "revision": "5c85f48ff1ce39d38e635af435412205",
+    "revision": "c03a236cb1362b4b9c4a24a78c7c4023",
+    "url": "/portfolio/static/media/main.c03a236c.jpg"
+  },
+  {
+    "revision": "39e65986ca0ba412edb8bf5c2054436a",
     "url": "/portfolio/index.html"
   }
 ];
